@@ -18,6 +18,7 @@ body {
   padding: 5px 10px;
   background-color: rgb(216, 225, 233);
   margin: 3px;
+  color: white;
 }
 .box {
   max-width: 240px;

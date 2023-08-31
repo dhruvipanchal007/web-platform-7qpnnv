@@ -9,26 +9,26 @@ body {
   background-color: white;
 }
 
-.btn{
-  padding: 10px;
-  background-color:white;
-}
-.btns{
-  font-size: 20px;
-  padding: 5px 10px;
-  background-color: rgb(216, 225, 233);
-  margin: 3px;
-  color: white;
-}
-.box {
-  max-width: 240px;
-  border: 2px solid black;
+.calc{
+  max-width: 230px;
+  border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
-  color: black;
-  display: grid;
-  grid-template-rows: 1fr;
+  background-color: rgb(31, 27, 27);
 }
-.text{
-  font-size: 18px;
+.calc-text{
+  font-size: 17px;
+  height:  60px;
+  background-color: rgb(34, 29, 29);
+}
+.calc-btn{
+  padding: 5px 10px;
+  font-size: 20px;
+  margin: 10px 8px;
+  color: white;
+  border: none;
+  background-color:rgb(31, 27, 27);
+}
+.color{
+  color:#006a51;
 }

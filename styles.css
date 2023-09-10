@@ -9,7 +9,7 @@ body {
   background-color: white;
 }
 
-.calc{
+.calc {
   max-width: 230px;
   border: 1px solid black;
   margin-left: auto;
@@ -18,19 +18,20 @@ body {
   margin-top: 100px;
   margin-bottom: auto;
 }
-.calc-text{
+.calc-text {
   font-size: 17px;
-  height:  60px;
-  background-color: rgb(34, 29, 29);
+  height: 60px;
+  /* background-color: rgb(34, 29, 29); */
+  /* color: white; */
 }
-.calc-btn{
+.calc-btn {
   padding: 5px 10px;
   font-size: 20px;
   margin: 10px 8px;
   color: white;
   border: none;
-  background-color:rgb(31, 27, 27);
+  background-color: rgb(31, 27, 27);
 }
-.color{
-  color:#006a51;
+.color {
+  color: #006a51;
 }

@@ -18,6 +18,12 @@ const secondNum = +userInput[2]; */
     case '*':
       ans = firstNum * secondNum;
       break;
+      case '/':
+      ans = firstNum / secondnum;
+      break;
+      case '-':
+      ans = firstNum-secondNum;
+      break;
   }
   return ans;
 };

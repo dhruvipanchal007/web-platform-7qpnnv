@@ -38,7 +38,11 @@ buttons.forEach((currBtn) => {
       userInput = finalAns;
       // let xyz = finalAns;
       // firstNum = xyz;
-    } else {
+    } 
+    else if(event.target.input ==='Del'){
+      display.value=0;
+    }
+    else {
       userInput = userInput + event.target.innerText;
       display.value = userInput;
     }

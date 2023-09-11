@@ -12,24 +12,25 @@ const doCalculation = () => {
   // const operator = userInput[1];
   // const secondNum = +userInput[2];
 
-  // let ans = '';
-  // switch (operator) {
-  //   case '+':
-  //     ans = +firstNum + +secondNum;
-  //     break;
-  //   case '*':
-  //     ans = +firstNum * +secondNum;
-  //     break;
-  //   case '/':
-  //     ans = +firstNum / +secondNum;
-  //     break;
-  //   case '-':
-  //     ans = +firstNum - +secondNum;
-  //     break;
-  // case'%';
-  // ans=+firstNum
-  // }
-  // return ans;
+//   let ans = '';
+//   switch (operator) {
+//     case '+':
+//       ans = +firstNum + +secondNum;
+//       break;
+//     case '*':
+//       ans = +firstNum * +secondNum;
+//       break;
+//     case '/':
+//       ans = +firstNum / +secondNum;
+//       break;
+//     case '-':
+//       ans = +firstNum - +secondNum;
+//       break;
+//     case '%':
+//     ans = +firstNum * +secondNum /100;
+//     break;
+//   }
+  return ans;
 };
 
 buttons.forEach((currBtn) => {

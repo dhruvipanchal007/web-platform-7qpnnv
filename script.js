@@ -12,30 +12,29 @@ const doCalculation = () => {
   // const operator = userInput[1];
   // const secondNum = +userInput[2];
 
-//   let ans = '';
-//   switch (operator) {
-//     case '+':
-//       ans = +firstNum + +secondNum;
-//       break;
-//     case '*':
-//       ans = +firstNum * +secondNum;
-//       break;
-//     case '/':
-//       ans = +firstNum / +secondNum;
-//       break;
-//     case '-':
-//       ans = +firstNum - +secondNum;
-//       break;
-//     case '%':
-//     ans = +firstNum * +secondNum /100;
-//     break;
-//   }
-  return ans;
+    // let ans = '';
+    // switch (operator) {
+    //   case '+':
+    //     ans = +firstNum + +secondNum;
+    //     break;
+    //   case '*':
+    //     ans = +firstNum * +secondNum;
+    //     break;
+    //   case '/':
+    //     ans = +firstNum / +secondNum;
+    //     break;
+    //   case '-':
+    //     ans = +firstNum - +secondNum;
+    //     break;
+    //  
+    // }
+  
+  // return ans;
 };
 
 buttons.forEach((currBtn) => {
   currBtn.addEventListener('click', (event) => {
-    debugger;
+    
     if (event.target.innerText === '=') {
       const finalAns = doCalculation();
       display.value = finalAns;
@@ -49,13 +48,13 @@ buttons.forEach((currBtn) => {
     } else if (event.target.innerText === 'C') {
       userInput = '';
       display.value = '0';
-    } else {
+    } 
+    else if(event.target.innerText==='%'){
+      
+    }
+    else {
       userInput = userInput + event.target.innerText;
       display.value = userInput;
     }
   });
 });
-
-let d = '123456';
-let h = d.slice(0, -1);
-console.log(h);

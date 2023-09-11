@@ -1,4 +1,3 @@
-console.log('Hello!');
 
 const display = document.querySelector('#inputVal');
 const buttons = document.querySelectorAll('.calc-btn');

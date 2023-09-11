@@ -50,7 +50,9 @@ buttons.forEach((currBtn) => {
       display.value = '0';
     } 
     else if(event.target.innerText==='%'){
-      display.value =userInput;
+      const ans=doCalculation();
+      const percentage=ans/100;
+      display.value=percentage;
     }
     else {
       userInput = userInput + event.target.innerText;

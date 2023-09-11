@@ -32,6 +32,7 @@ const doCalculation = () => {
 
 buttons.forEach((currBtn) => {
   currBtn.addEventListener('click', (event) => {
+   debugger
     if (event.target.innerText === '=') {
       const finalAns = doCalculation();
       display.value = finalAns;
@@ -39,10 +40,11 @@ buttons.forEach((currBtn) => {
       // let xyz = finalAns;
       // firstNum = xyz;
     } 
-    else if(event.target.input ==='Del'){
-      debugger
+
+    else if(event.target.innerText ==='Del'){
       const cans=userInput.slice(0,-1); // mayur 0,2 = may
-      display.value=cans;
+      userInput=cans;
+      display.value=userInput;
     }
     else {
       userInput = userInput + event.target.innerText;

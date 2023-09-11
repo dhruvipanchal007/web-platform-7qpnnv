@@ -40,7 +40,9 @@ buttons.forEach((currBtn) => {
       // firstNum = xyz;
     } 
     else if(event.target.input ==='Del'){
-      display.value=0;
+      debugger
+      const cans=userInput.slice(0,-1); // mayur 0,2 = may
+      display.value=cans;
     }
     else {
       userInput = userInput + event.target.innerText;
@@ -48,3 +50,8 @@ buttons.forEach((currBtn) => {
     }
   });
 });
+
+
+let d="123456"
+let h=d.slice(0,-1);
+console.log(h);

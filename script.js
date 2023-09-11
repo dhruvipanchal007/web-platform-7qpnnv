@@ -50,7 +50,7 @@ buttons.forEach((currBtn) => {
       display.value = '0';
     } 
     else if(event.target.innerText==='%'){
-      
+      display.value =userInput;
     }
     else {
       userInput = userInput + event.target.innerText;

@@ -26,34 +26,35 @@ const doCalculation = () => {
   //   case '-':
   //     ans = +firstNum - +secondNum;
   //     break;
+  // case'%';
+  // ans=+firstNum
   // }
   // return ans;
 };
 
 buttons.forEach((currBtn) => {
   currBtn.addEventListener('click', (event) => {
-   debugger
+    debugger;
     if (event.target.innerText === '=') {
       const finalAns = doCalculation();
       display.value = finalAns;
       userInput = finalAns;
       // let xyz = finalAns;
       // firstNum = xyz;
-    } 
-
-    else if(event.target.innerText ==='Del'){
-      const cans=userInput.slice(0,-1); // mayur 0,2 = may
-      userInput=cans;
-      display.value=userInput;
-    }
-    else {
+    } else if (event.target.innerText === 'Del') {
+      const cans = userInput.slice(0, -1); // mayur 0,2 = may
+      userInput = cans;
+      display.value = userInput;
+    } else if (event.target.innerText === 'C') {
+      userInput = '';
+      display.value = '0';
+    } else {
       userInput = userInput + event.target.innerText;
       display.value = userInput;
     }
   });
 });
 
-
-let d="123456"
-let h=d.slice(0,-1);
+let d = '123456';
+let h = d.slice(0, -1);
 console.log(h);
